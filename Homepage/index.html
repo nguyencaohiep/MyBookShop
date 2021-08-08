@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book shop</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../image/books.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="">Bookshop</a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm...">
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Trang chủ</a></li>
+                <li>
+                    <a href="">Tủ sách</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="../image/books.png" alt="">
+                            </div>
+                            <div class="row">
+                                <header>Kinh doanh</header>
+                                <ul class="mega-links">
+                                    <li><a href="">Đầu tư</a></li>
+                                    <li><a href="">Quản trị doanh nghiệp</a></li>
+                                    <li><a href="">Chứng khoán</a></li>
+                                    <li><a href="">Tiền ảo</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Kinh doanh</header>
+                                <ul class="mega-links">
+                                    <li><a href="">Đầu tư</a></li>
+                                    <li><a href="">Quản trị doanh nghiệp</a></li>
+                                    <li><a href="">Chứng khoán</a></li>
+                                    <li><a href="">Tiền ảo</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Kinh doanh</header>
+                                <ul class="mega-links">
+                                    <li><a href="">Đầu tư</a></li>
+                                    <li><a href="">Quản trị doanh nghiệp</a></li>
+                                    <li><a href="">Chứng khoán</a></li>
+                                    <li><a href="">Tiền ảo</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Kinh doanh</header>
+                                <ul class="mega-links">
+                                    <li><a href="">Đầu tư</a></li>
+                                    <li><a href="">Quản trị doanh nghiệp</a></li>
+                                    <li><a href="">Chứng khoán</a></li>
+                                    <li><a href="">Tiền ảo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Tiêu biểu</a>
+                    <ul class="drop-menu">
+                        <li><a href="">Đắc nhân tâm</a></li>
+                        <li><a href="">Triết học Seneca</a></li>
+                        <li><a href="">Ngành IT có gì</a></li>
+                        <li><a href="">Tarot</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Lịch sử</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="account">
+        <a href="../signin/index.html">Đăng nhập</a>
+    </div>
+    <div id="slider-container">
+        <div class="slide-control">
+            <button id="prev-btn" class="slide-btn"><div></div></button>
+            <button id="next-btn" class="slide-btn"><div></div></button>
+        </div>
+        <div class="slider">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="type-product">
+            <div class="title">
+                <p>Sản phẩm nổi bật</p>
+            </div>
+            <div class="show">
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href="#"><img src="../image/anh1.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh2.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh3.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh4.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="type-product">
+            <div class="title">
+                <p>Sách hướng nghiệp</p>
+            </div>
+            <div class="show">
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh1.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh2.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh3.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh4.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="type-product">
+            <div class="title">
+                <p>Hành trang ngành it</p>
+            </div>
+            <div class="show">
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh1.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh2.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh3.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="book">
+                    <span class="discount">-12%</span>
+                    <a href=""><img src="../image/anh4.png"></a>
+                    <div class="mask">
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                        <p>
+                            <a href="#">Mua ngay</a>
+                        </p>
+                        <p>
+                            <a href="#">Thêm vào giỏ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="story">
+            <div class="title">
+                <p>một vài vấn đề</p>
+            </div>
+            <div class="show">
+                <div class="stories">
+                    <div class="image">
+                        <a><img src="../image/str1.png" alt=""></a>
+                    </div>
+                    <div class="content-story">
+                        <span class="story-info">Chủ Nhật 08,08,2021</span>
+                        <h3 class="story-title">
+                            <a href="#">NGÀNH KINH TẾ LÀM GÌ, LƯƠNG RA SAO?</a>
+                        </h3>
+                        <div class="story-disc">
+                            <p>Học Kinh tế có những lựa chọn nghề nghiệp phổ biến gì?Học Kinh tế ra trường không sợ thất nghiệp?Học Kinh tế lương cao?Đây đều là những băn khoăn mà...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories">
+                    <div class="image">
+                        <a><img src="../image/str2.png" alt=""></a>
+                    </div>
+                    <div class="content-story">
+                        <span class="story-info">Chủ Nhật 08,08,2021</span>
+                        <h3 class="story-title">
+                            <a href="#">LIỆU BẠN ĐÃ HIỂU HẾT VỀ NGÀNH MARKETING?</a>
+                        </h3>
+                        <div class="story-disc">
+                            <p>Đối với nhiều doanh nghiệp, nếu mục tiêu quan trọng nhất của họ là tăng trưởng doanh thu và xây dựng mối quan hệ với khách hàng, thì Marketing chính...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories">
+                    <div class="image">
+                        <a><img src="../image/str3.png" alt=""></a>
+                        <div class="content-story">
+                            <span class="story-info">Chủ Nhật 08,08,2021</span>
+                            <h3 class="story-title">
+                                <a href="#">Lập trình viên nên làm việc tại đâu? Tập đoàn lớn hay startup?</a>
+                            </h3>
+                            <div class="story-disc">
+                                <p>Lựa chọn nơi làm việc chính là một trong những thắc mắc lớn của các lập trình viên hiện nay. Phát triển sự nghiệp của ngành lập trình nên bắt...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="map">
+            <p class="mess"></p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="about-us">
+            <p class="title">giới thiệu</p>
+            <div style="font-size: 15px;color:#acb0b1;margin:20px 0;">Bản quyền của Công Ty Cổ Phần Ahora - Giấy chứng nhận ĐKKD số: 0107886528 do Phòng ĐKKD Sở kế hoạch và đầu tư Tp Hà Nội cấp ngày 14/06/2017</div>
+            <div class="logo-btc">
+                <img src="../image/logo-bct.png" alt="">
+            </div>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <div class="question">
+            <p class="title">pháp lý & câu hỏi</p>
+            <ul>
+                <li><a href="#">Tìm kiếm</a></li>
+                <li><a href="#">Giới thiệu</li>
+                <li><a href="#">Điều khoản và điều kiện giao dịch chung</a></li>
+                <li><a href="#">Chính sách giao nhận sản phẩm</a></li>
+                <li><a href="#">Chính sách bảo vệ thông tin cá nhân</a></li>
+                <li><a href="#">Chính sách thanh toán</a></li>
+                <li><a href="#">Tủ sách hướng nghiệp</a></li>
+                <li><a href="#">Chủ nghĩa Khắc Kỷ</a></li>
+                <li> <a href="#">Hành trang Ngành IT</a></li>
+                <li><a href="#">Quà tặng cuộc sống</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <p class="title">thông tin liên hệ</p>
+            <ul>
+                <li>Địa chỉ: Số 6 ngõ 186 đường Bưởi, Cống Vị, Ba Đình, Hà Nội</li>
+                <li>Điện thoại: 0961946810</li>
+                <li>Fax:</li>
+                <li>Mail: contact@spiderum.com</li>
+            </ul>
+        </div>
+        <div class="fanpage">
+            <p class="title">fanpage</p>
+        </div>
+    </div>
+</body>
+
+<script src="app.js "></script>
+</ul>
+
+</html>
+
+</html>
